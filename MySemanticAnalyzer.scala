@@ -35,7 +35,7 @@ class MySemanticAnalyzer extends {
         case CONSTANTS.DOCE => s.push(temp)
         case CONSTANTS.DOCB => s.push(temp)
         case CONSTANTS.DEFB => s.push(temp)
-        case CONSTANTS.USEB => s.push(temp) //add more
+        case CONSTANTS.USEB => s.push(temp)
         case _ => s.push(temp)
       }
     }
